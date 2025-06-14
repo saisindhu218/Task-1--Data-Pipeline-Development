@@ -22,7 +22,7 @@ To begin, I manually created a synthetic dataset named `student_data.csv` with f
 * MCADepartment
 * College
 * GPA
-To mimic real-world data, I intentionally added missing values in columns like `StudentID`, `PhoneNumber`, and `GPA`, and also introduced some duplicate rows.
+To mimic real-world data, I intentionally added missing values in columns like StudentID, PhoneNumber, and GPA, and also introduced some duplicate rows.
 
 #### 2.Data Cleaning
 The next step was to clean the dataset. Here’s how I tackled it:
