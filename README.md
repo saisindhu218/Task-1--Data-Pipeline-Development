@@ -68,8 +68,16 @@ This task was a major confidence booster. As an MCA student who’s still learni
 
 
 
+Result of Task Complition:
 
-#This is the trminal view after compilation
+Finally adter ETL Process the data is shown in csv file
+
+![Image](https://github.com/user-attachments/assets/3f833811-eeab-4329-9edd-9572ac20d30f)
+
+
+
+This is the trminal view after compilation
 
 ![Image](https://github.com/user-attachments/assets/f16ebfb5-e0e9-4378-ba73-256ea5b2f3df)
+
 
