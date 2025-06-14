@@ -65,3 +65,11 @@ This task was a major confidence booster. As an MCA student who’s still learni
 * I now feel more confident using **pandas**, **NumPy**, and **scikit-learn** for data processing.
 * I also realized the **value of virtual environments** like `Datascience_env` in keeping dependencies clean and avoiding project conflicts.
 * Finally, working in **VS Code** made the development process smooth and well-organized.
+
+
+
+
+#This is the trminal view after compilation
+
+![Image](https://github.com/user-attachments/assets/f16ebfb5-e0e9-4378-ba73-256ea5b2f3df)
+
