@@ -12,16 +12,16 @@
 
 *Mentor*: Neela Santosh
 
-##Hey there! This repository is part of my journey through the CODTECH Data Science Internship, and it's all about **Task 1: Data Pipeline Development**. As an MCA student diving deeper into data science, this task gave me a great opportunity to experience what it’s really like to work with raw data — and transform it into something structured, clean, and ready to be used for analysis. The task focused on building an ETL pipeline. In simple terms, I had to take in raw data (with errors and inconsistencies), clean and reshape it, and export the final version. I used a simulated student dataset as the working base, and I ran everything inside a custom virtual environment named `Datascience_env' to manage dependencies cleanly.I used VS Code as my code editor for this task — it made writing, testing, and organizing code much easier with its extensions and integrated terminal.
+Hey there! This repository is part of my journey through the CODTECH Data Science Internship, and it's all about **Task 1: Data Pipeline Development**. As an MCA student diving deeper into data science, this task gave me a great opportunity to experience what it’s really like to work with raw data — and transform it into something structured, clean, and ready to be used for analysis. The task focused on building an ETL pipeline. In simple terms, I had to take in raw data (with errors and inconsistencies), clean and reshape it, and export the final version. I used a simulated student dataset as the working base, and I ran everything inside a custom virtual environment named `Datascience_env' to manage dependencies cleanly.I used VS Code as my code editor for this task — it made writing, testing, and organizing code much easier with its extensions and integrated terminal.
 
 #### 1.Created a Sample Dataset
 To begin, I manually created a synthetic dataset named `student_data.csv` with fields like:
-* `StudentName`
-* `StudentID`
-* `PhoneNumber`
-* `MCADepartment`
-* `College`
-* `GPA`
+* StudentName
+* StudentID
+* PhoneNumber
+* MCADepartment
+* College
+* GPA
 To mimic real-world data, I intentionally added missing values in columns like `StudentID`, `PhoneNumber`, and `GPA`, and also introduced some duplicate rows.
 
 #### 2.Data Cleaning
@@ -29,25 +29,25 @@ The next step was to clean the dataset. Here’s how I tackled it:
 
 * **Removed duplicate entries** so every student record is unique.
 * **Imputed missing values** based on the type of data:
-  * `StudentID` and `GPA` were filled using their column mean.
-  * `PhoneNumber` was filled with `0` and then converted into integers for consistency.
-  * `MCADepartment` was filled using the most frequent department value found in the data.
+  * StudentID and GPA were filled using their column mean.
+  * PhoneNumber was filled with `0` and then converted into integers for consistency.
+  * MCADepartment was filled using the most frequent department value found in the data.
 This step helped ensure that the dataset had no null or misleading values.
 
 #### 3.Data Transformation
 Once the data was cleaned, I worked on transforming it for readability and usability:
 * I rounded GPA values to two decimal places after imputation for clarity and neatness.
-* I kept department names like `"General"`, `"SCT"`, `"AIML"` as they were — not encoded — to retain human readability.
+* I kept department names like "General", "SCT", "ISMS", "AIML" as they were — not encoded — to retain human readability.
 * I **renamed columns** for simplicity:
-  * `StudentName` → `name`
-  * `StudentID` → `id`
-  * `PhoneNumber` → `phone number`
-  * `MCADepartment` → `department`
-  * `GPA` → `grade`
+  * StudentName → name
+  * StudentID → id
+  * PhoneNumber → phone number
+  * MCADepartment → department
+  * GPA → grade
 * I also **reordered the columns** for better organization and logical flow.
 
 #### 4️.Data Export
-Finally, I exported the clean and processed data into a new file called **`processed student data.csv`**. This file represents the polished version of the original `student_data.csv` — now cleaned, transformed, and ready for analysis or integration into future projects.
+Finally, I exported the clean and processed data into a new file called **processed student data.csv**. This file represents the polished version of the original `student_data.csv` — now cleaned, transformed, and ready for analysis or integration into future projects.
 
 ### Tools and Technologies Used
 * **Python** – My main programming language throughout the project.
