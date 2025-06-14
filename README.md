@@ -38,23 +38,23 @@ Once the data was cleaned, I worked on transforming it for readability and usabi
 * I rounded GPA values to two decimal places after imputation for clarity and neatness.
 * I kept department names like "General", "SCT", "ISMS", "AIML" as they were not encoded to retain human readability.
 * I **renamed columns** for simplicity:
-  * StudentName → name
-  * StudentID → id
-  * PhoneNumber → phone number
-  * MCADepartment → department
-  * GPA → grade
+  * StudentName to name
+  * StudentID to id
+  * PhoneNumber to phone number
+  * MCADepartment to department
+  * GPA to grade
 * I also **reordered the columns** for better organization and logical flow.
 
 #### 4️.Data Export
 Finally, I exported the clean and processed data into a new file called **processed student data.csv**. This file represents the polished version of the original student_data.csv now cleaned, transformed, and ready for analysis or integration into future projects.
 
 ### Tools and Technologies Used
-* **Python** – My main programming language throughout the project.
-* **Pandas** – Super useful for data manipulation and working with CSV files.
-* **NumPy** – Helped me handle numerical operations and `NaN` values.
-* **Scikit-learn** – I used SimpleImputer for imputing missing values and ColumnTransformer to apply different transformations.
-* **VS Code** – My go to code editor. It really helped with managing files, running Python scripts, and organizing everything through its extensions.
-* **Datascience_env** – A virtual environment I created to isolate my dependencies and keep the project clean.
+* **Python**:My main programming language throughout the project.
+* **Pandas**:Super useful for data manipulation and working with CSV files.
+* **NumPy**:Helped me handle numerical operations and `NaN` values.
+* **Scikit-learn**:I used SimpleImputer for imputing missing values and ColumnTransformer to apply different transformations.
+* **VS Code**:My go to code editor. It really helped with managing files, running Python scripts, and organizing everything through its extensions.
+* **Datascience_env**:A virtual environment I created to isolate my dependencies and keep the project clean.
 
 ### What I Learned
 This task was a major confidence booster. As an MCA student who’s still learning the practical side of data science, I gained a lot from this experience. Here are some things I personally learned:
