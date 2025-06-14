@@ -46,7 +46,7 @@ Once the data was cleaned, I worked on transforming it for readability and usabi
 * I also **reordered the columns** for better organization and logical flow.
 
 #### 4️.Data Export
-Finally, I exported the clean and processed data into a new file called **processed student data.csv**. This file represents the polished version of the original student_data.csv — now cleaned, transformed, and ready for analysis or integration into future projects.
+Finally, I exported the clean and processed data into a new file called **processed student data.csv**. This file represents the polished version of the original student_data.csv now cleaned, transformed, and ready for analysis or integration into future projects.
 
 ### Tools and Technologies Used
 * **Python** – My main programming language throughout the project.
