@@ -12,7 +12,7 @@
 
 *Mentor*: Neela Santosh
 
-Hey there! This repository is part of my journey through the CODTECH Data Science Internship, and it's all about **Task 1: Data Pipeline Development**. As an MCA student diving deeper into data science, this task gave me a great opportunity to experience what it’s really like to work with raw data — and transform it into something structured, clean, and ready to be used for analysis. The task focused on building an ETL pipeline. In simple terms, I had to take in raw data (with errors and inconsistencies), clean and reshape it, and export the final version. I used a simulated student dataset as the working base, and I ran everything inside a custom virtual environment named Datascience_env to manage dependencies cleanly.I used VS Code as my code editor for this task — it made writing, testing, and organizing code much easier with its extensions and integrated terminal.
+Hey there! This repository is part of my journey through the CODTECH Data Science Internship, and it's all about **Task 1: Data Pipeline Development**. As an MCA student diving deeper into data science, this task gave me a great opportunity to experience what it’s really like to work with raw data and transform it into something structured, clean, and ready to be used for analysis. The task focused on building an ETL pipeline. In simple terms, I had to take in raw data (with errors and inconsistencies), clean and reshape it, and export the final version. I used a simulated student dataset as the working base, and I ran everything inside a custom virtual environment named Datascience_env to manage dependencies cleanly.I used VS Code as my code editor for this task, it made writing, testing, and organizing code much easier with its extensions and integrated terminal.
 
 #### 1.Created a Sample Dataset
 To begin, I manually created a synthetic dataset named student_data.csv with fields like:
@@ -36,7 +36,7 @@ This step helped ensure that the dataset had no null or misleading values.
 #### 3.Data Transformation
 Once the data was cleaned, I worked on transforming it for readability and usability:
 * I rounded GPA values to two decimal places after imputation for clarity and neatness.
-* I kept department names like "General", "SCT", "ISMS", "AIML" as they were — not encoded — to retain human readability.
+* I kept department names like "General", "SCT", "ISMS", "AIML" as they were not encoded to retain human readability.
 * I **renamed columns** for simplicity:
   * StudentName → name
   * StudentID → id
@@ -53,16 +53,16 @@ Finally, I exported the clean and processed data into a new file called **proces
 * **Pandas** – Super useful for data manipulation and working with CSV files.
 * **NumPy** – Helped me handle numerical operations and `NaN` values.
 * **Scikit-learn** – I used SimpleImputer for imputing missing values and ColumnTransformer to apply different transformations.
-* **VS Code** – My go-to code editor. It really helped with managing files, running Python scripts, and organizing everything through its extensions.
+* **VS Code** – My go to code editor. It really helped with managing files, running Python scripts, and organizing everything through its extensions.
 * **Datascience_env** – A virtual environment I created to isolate my dependencies and keep the project clean.
 
 ### What I Learned
 This task was a major confidence booster. As an MCA student who’s still learning the practical side of data science, I gained a lot from this experience. Here are some things I personally learned:
 * **Handling messy data is unavoidable**, but with the right tools, it becomes manageable. I now understand the importance of cleaning data before doing any kind of analysis.
-* **Different data types need different treatment**. For example, IDs shouldn’t be scaled like numerical values, and missing categories can’t just be guessed — they need a smart strategy like filling with the mode.
+* **Different data types need different treatment**. For example, IDs shouldn’t be scaled like numerical values, and missing categories can’t just be guessed they need a smart strategy like filling with the mode.
 * I learned how to **design data pipelines step-by-step**, which is super useful for real-world projects.
 * I now feel more confident using **pandas**, **NumPy**, and **scikit-learn** for data processing.
-* I also realized the **value of virtual environments** like `Datascience_env` in keeping dependencies clean and avoiding project conflicts.
+* I also realized the **value of virtual environments** like Datascience_env in keeping dependencies clean and avoiding project conflicts.
 * Finally, working in **VS Code** made the development process smooth and well-organized.
 
 
