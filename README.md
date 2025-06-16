@@ -1,17 +1,17 @@
 
-# TASK 1: DATA-PIPELINE-DEVELOPMENT
+# TASK 1    : DATA-PIPELINE-DEVELOPMENT
 
-*Company*: CODTECH IT SOLUTIONS
+*Company*   : CODTECH IT SOLUTIONS
 
-*Name*:  Rachabattuni Sai Sindhu
+*Name*      : Rachabattuni Sai Sindhu
 
-*Intern ID*: CT06DG1263
+*Intern ID* : CT06DG1263
 
-*Domain*: Data Science
+*Domain*    : Data Science
 
-*Duration*: 6 Weeks
+*Duration*  : 6 Weeks
 
-*Mentor*: Neela Santosh
+*Mentor*    : Neela Santosh
 
 Hey there! This repository is part of my journey through the CODTECH Data Science Internship, and it's all about **Task 1: Data Pipeline Development**. As an MCA student diving deeper into data science, this task gave me a great opportunity to experience what it’s really like to work with raw data and transform it into something structured, clean, and ready to be used for analysis. The task focused on building an ETL pipeline. In simple terms, I had to take in raw data (with errors and inconsistencies), clean and reshape it, and export the final version. I used a simulated student dataset as the working base, and I ran everything inside a custom virtual environment named Datascience_env to manage dependencies cleanly.I used VS Code as my code editor for this task, it made writing, testing, and organizing code much easier with its extensions and integrated terminal.
 
