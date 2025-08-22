@@ -75,7 +75,7 @@ Overall, this was an enriching experience that made me appreciate how important 
 
 Result of Task Complition:
 
-Finally adter ETL Process the data is shown in csv file
+Finally after ETL Process the data is shown in csv file
 
 ![Image](https://github.com/user-attachments/assets/3f833811-eeab-4329-9edd-9572ac20d30f)
 
