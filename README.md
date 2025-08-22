@@ -81,7 +81,7 @@ Finally after ETL Process the data is shown in csv file
 
 
 
-This is the trminal view after compilation
+This is the terminal view after compilation
 
 ![Image](https://github.com/user-attachments/assets/f16ebfb5-e0e9-4378-ba73-256ea5b2f3df)
 
